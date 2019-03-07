@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript">
+			function Person(name,age,gender){
+				this.name = name;
+				this.age = age;
+				this.gender = gender;
+				this.sayName = fun;
+			}
+			/* 
+			 * 将函数定义在全局作用域里，污染了全局作用域的命名空间
+			 * 而且定义在全局作用域中也很不安全
+			*/
+			function fun(){
+				alert(this.name);
+			}
+			var per = new Person("hukelin",22,"男");
+			per.sayName();
+			console.log()
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

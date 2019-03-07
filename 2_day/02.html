@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>练习</title>
+		<script type="text/jscript">
+			var score = prompt("请输入成绩：");
+			if(score >100 || score <0 || isNaN(score) || score == ""){
+				alert("成绩无效！");
+			}else{
+				if(score < 60){
+					alert("不及格");
+				}else if(score >= 60 && score < 80){
+					alert("及格");
+				}else{
+					alert("优秀");
+				}
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
