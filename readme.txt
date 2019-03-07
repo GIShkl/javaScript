@@ -5,3 +5,4 @@ Hello Git
 Git tracks changes.
 Hello World
 hukelin
+Creating a new branch is quick & simple.
